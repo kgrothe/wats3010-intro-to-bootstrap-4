@@ -1,12 +1,44 @@
+@media screen and (min-width: 360px) {
+  body {
+    background-color: #d5e2f9;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: aliceblue;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card {
+    border-style: solid;
+    border-color: darkblue;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card-img-top {
+    width: 50%;
+  }
+}
+
+nav.navbar {
+  background-color: #2b4467;
+}
+
 a:hover {
   color: red;
   text-decoration: none;
 }
 
-a.btn.btn-primary:hover{
-  background-color:red
+a.btn.btn-primary:hover {
+  background-color: red;
 }
 
+footer {
+  background-color: #516a8e
+}
 
 .footer-flex {
   display: flex;
@@ -14,9 +46,6 @@ a.btn.btn-primary:hover{
   justify-content: space-between;
 }
 
-.footer{
+.footer {
   flex: 0 1 auto;
 }
-
-
-
